@@ -1,5 +1,5 @@
 // Förseningsövertid — bookmarklet overlay for MS Forms
-// Loaded via: javascript:void(document.body.appendChild(Object.assign(document.createElement('script'),{src:'https://cdn.jsdelivr.net/gh/USER/REPO@main/ot.js'})))
+// Loaded via: javascript:void(fetch('https://ke86.github.io/overtid/ot.js?v='+Date.now()).then(function(r){return r.text()}).then(function(c){(1,eval)(c)}))
 (function() {
   if (document.getElementById('_ot_ov')) return;
 
